@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Love Tree</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="experience" aria-label="Cinematic birthday love animation">
+    <canvas id="scene" aria-hidden="true"></canvas>
+
+    <section id="messageBox" class="message-box" aria-live="polite">
+      <p id="messageText"></p>
+      <span class="type-caret" aria-hidden="true"></span>
+    </section>
+
+    <button id="replayButton" class="replay-button" type="button">
+      Replay Animation
+    </button>
+
+    <!-- Optional: place an audio.mp3 file beside this HTML file to enable ambient music. -->
+    <audio id="ambientAudio" src="audio.mp3" preload="none" loop></audio>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
